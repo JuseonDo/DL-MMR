@@ -30,8 +30,8 @@ DL-MMR
 $ cd DL-MMR
 $ bash scripts/save_metadata.sh
 $ bash scripts/calcuate_distance.sh
-$ bash retrieve.sh
-$ inference.sh
+$ bash scripts/retrieve.sh
+$ bash scripts/inference.sh
 ```
 
 
