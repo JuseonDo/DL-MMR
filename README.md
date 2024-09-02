@@ -6,7 +6,7 @@
 
 ## Structure
 ```
-Considering Length Diversity in Retrieval-Augmented Summarization
+DL-MMR
 |
 ├── dataset
 │   ├── Google
