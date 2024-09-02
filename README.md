@@ -6,7 +6,8 @@
 
 ## Structure
 ```
-InstructCMP
+Considering Length Diversity in Retrieval-Augmented Summarization
+|
 ├── dataset
 │   ├── Google
 │   │   ├──google_test.jsonl
