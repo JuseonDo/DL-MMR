@@ -1,5 +1,5 @@
 # Considering Length Diversity in Retrieval-Augmented Summarization
-
+* Accepted to NAACL Findings
 * Authors: Juseon-Do, Jaesung Hwang, Jingun Kwon, Hidetaka Kamigaito, Manabu Okumura
 * Paper Link: [DL-MMR]("")
 
