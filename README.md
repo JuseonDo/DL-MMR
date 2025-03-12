@@ -9,7 +9,7 @@
 ![DL-MMR](image/dl-mmr_figure1.png)
 
 ## 📚 Overview
-This paper introduces a **Diverse Length-aware MMR algorithm** that improves retrieval-augmented summarization by incorporating exemplar length diversity, yielding more concise and informative summaries with drastically reduced computational cost.
+This paper introduces a **Diverse Length-aware MMR algorithm** that improves retrieval-augmented summarization by incorporating exemplar length diversity, yielding more appropriate and informative summaries with drastically reduced computational cost even on the datasets such as BNC and Broadcast that have diverse length distributions.
 
 
 ## 🚀 Getting Started
