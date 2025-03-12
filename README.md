@@ -8,8 +8,27 @@
 
 ![DL-MMR](image/dl-mmr_figure1.png)
 
+## 📚 Overview
+This paper introduces a **Diverse Length-aware MMR algorithm** that improves retrieval-augmented summarization by incorporating exemplar length diversity, yielding more concise and informative summaries with drastically reduced computational cost.
 
-## Structure
+
+## 🚀 Getting Started
+### 1. Clone the Repository
+```
+$ git clone https://github.com/JuseonDo/DL-MMR.git
+```
+
+### 2. Run
+```
+$ cd DL-MMR
+$ bash scripts/save_metadata.sh
+$ bash scripts/calcuate_distance.sh
+$ bash scripts/retrieve.sh
+$ bash scripts/inference.sh
+```
+
+
+## 📂 DL-MMR Dataset Structure
 ```
 DL-MMR
 |
@@ -24,21 +43,11 @@ DL-MMR
     └── faiss_utils
     └── inference_utils
     └── rag_utils
-
-
-```
-
-## Run
-```
-$ cd DL-MMR
-$ bash scripts/save_metadata.sh
-$ bash scripts/calcuate_distance.sh
-$ bash scripts/retrieve.sh
-$ bash scripts/inference.sh
 ```
 
 
-# Evaluation
+
+# 🔍 Evaluation
 The metrics used in this work are in [evaluation_metrics](https://github.com/JuseonDo/InstructCMP/evaluation).
 
 ```python
