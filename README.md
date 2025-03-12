@@ -1,6 +1,6 @@
 # Considering Length Diversity in Retrieval-Augmented Summarization
 
-[![NAACL Findings](https://img.shields.io/badge/NAACL_Findings-accepted-blue)](#) [![Paper Link](https://img.shields.io/badge/Paper-View-green)](https://arxiv.org/user/)
+[![NAACL 2025 Findings](https://img.shields.io/badge/NAACL-2025_Findings-blue)](#) [![Paper Link](https://img.shields.io/badge/Paper-View-green)](https://arxiv.org/user/)
 
 **Accepted to NAACL Findings**  
 **Authors:** Juseon-Do, Jaesung Hwang, Jingun Kwon, Hidetaka Kamigaito, Manabu Okumura
