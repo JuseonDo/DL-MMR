@@ -1,7 +1,12 @@
 # Considering Length Diversity in Retrieval-Augmented Summarization
-* Accepted to NAACL Findings
-* Authors: Juseon-Do, Jaesung Hwang, Jingun Kwon, Hidetaka Kamigaito, Manabu Okumura
-* Paper Link: [DL-MMR]("")
+
+[![NAACL Findings](https://img.shields.io/badge/NAACL_Findings-accepted-blue)](#) [![Paper Link](https://img.shields.io/badge/Paper-View-green)](DL-MMR)
+
+**Accepted to NAACL Findings**  
+**Authors:** Juseon-Do, Jaesung Hwang, Jingun Kwon, Hidetaka Kamigaito, Manabu Okumura
+[**Read the Paper**]()
+
+![DL-MMR](image/dl-mmr_figure1.png)
 
 
 ## Structure
