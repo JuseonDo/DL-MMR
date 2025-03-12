@@ -1,12 +1,9 @@
 import fire
 import json
-import os
 from src.faiss_utils import FaissSearch
 import torch
 import gc
-import numpy as np
 from tqdm import tqdm
-from datasets import load_dataset
 
 
 def write_dicts_to_jsonl(dictionary, file_path):

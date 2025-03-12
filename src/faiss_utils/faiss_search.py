@@ -1,7 +1,3 @@
-"""
-This module contains a wrapper for the Faiss library by Facebook AI Research.
-"""
-
 from typing import List
 import gc
 import faiss
@@ -9,7 +5,6 @@ from tqdm import tqdm
 import torch
 from transformers import AutoTokenizer, AutoModel
 import numpy as np
-import pandas as pd
 
 class FaissSearch:
     def __init__(self, 
@@ -79,37 +74,3 @@ class FaissSearch:
                 embeddings.extend(embedding)
 
         return embeddings
-
-    # Search for the most similar elements in the dataset, given a query
-    def search(self,
-        query_embedd: torch.tensor,
-        k: int = 1,
-        index_column_name: str = 'embeddings',
-    ) -> pd.DataFrame:
-        """
-        This function searches for the most similar elements in the dataset, given a query.
-        
-        Arguments:
-            query (str): The query.
-            k (int, optional): The number of elements to return  (default: 1).
-            index_column_name (str, optional): The name of the column containing the embeddings (default: 'embeddings')
-
-        Ret:rns:
-            pd.DataFrame: The most similar elements in the dataset (text, score, etc.), sorted by score.
-
-        Remarks:
-            The returned elements are dictionaries containing the text and the score.
-        """
-        
-        query_embeddings = query_embedd
-        scores, similar_elts = self.train_dataset.get_nearest_examples(
-            index_name=index_column_name,
-            query=query_embeddings, 
-            k=k,
-        )
-
-        results_df = pd.DataFrame.from_dict(similar_elts)
-        
-        results_df['score'] = scores
-
-        return results_df
