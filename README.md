@@ -34,8 +34,15 @@ DL-MMR
 |
 ├── dataset
 │   ├── Google
+│   │   ├──google_test.jsonl
+│   │   ├──google_valid.jsonl
+│   │   └──google_train.jsonl
+|   |
 │   ├── Broadcast
+│   │   └──broadcast_test.jsonl
+|   |
 │   └── BNC
+│       └──bnc_test.jsonl
 |   
 ├── scripts
 |
